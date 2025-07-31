@@ -8,21 +8,18 @@ This repository includes the **custom-coded landing page**, and will later be ex
 
 ## 📁 Folder Structure
 
-notivo/
-│
-├── landing/ # Fully responsive marketing site
-│ ├── index.html
-│ ├── style.css
-│ └── assets/ # Images, icons, fonts
-│
-├── dashboard/ # (Planned) Team management interface
-│ └── [coming soon]
+Notivo/
+└── Landing Page/
+|    ├── index.html
+|    ├── style.css
+|    └── Assets/
+|       └── preview.jpg
 │
 └── README.md
 
 ## 🔍 Landing Page Preview
 
-![Notivo Landing Page Preview](./preview.jpg)
+![Preview](Landing%20Page/Assets/preview.jpg)
 
 
 
