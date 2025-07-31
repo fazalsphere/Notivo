@@ -262,7 +262,6 @@ button {
   width: 80vw;
   margin: auto;
   /* align-self: center; */
-  justify-content: center;
   height: auto;
   padding: 100px 120px;
   /* background-color: #166E3F; */
@@ -313,10 +312,13 @@ button {
 
 .achieve-container {
   width: 70vw;
+  height: auto;
   gap: 64px;
   margin: 40px auto;
-  background-color: #94e2b9;
+  /* background-color: #94e2b9; */
   display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
 }
 
 .achieve-grid {
@@ -324,7 +326,7 @@ button {
   padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   gap: 24px;
   /* background-color: aqua; */
 }
@@ -357,18 +359,19 @@ button {
 
 }
 
-.growth-icon {
+.achieve-icons {
   margin-bottom: 16px;
 }
 
 
-.achieve-image {
+/* .achieve-image {
   width: 30vw;
   background-color: #7FE4E8;
 
-}
-.achieve-image img {
+} */
+.achieve-image {
   /* margin: 0; */
-  align-self: right;
-  border-radius: 10px;
+  /* align-self: right; */
+  border-radius: 25px;
+  /* margin-right: 0; */
 }
