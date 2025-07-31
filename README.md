@@ -22,7 +22,7 @@ notivo/
 
 ## 🔍 Landing Page Preview
 
-![Notivo Landing Page Preview](./preview.png)
+![Notivo Landing Page Preview](./preview.jpg)
 
 
 
