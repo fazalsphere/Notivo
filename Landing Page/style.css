@@ -258,17 +258,24 @@ button {
   font-weight: 600;
 }
 
+
+/* What You Can Achieve with Notivo SECTION   */
+
 .achieve {
-  width: 80vw;
+  width: 100%;
   margin: auto;
   /* align-self: center; */
   height: auto;
-  padding: 100px 120px;
+  padding: 100px 10vw;
+  box-sizing: border-box;
+
   /* background-color: #166E3F; */
 }
 
 .achieve-text {
   max-width: 30vw;
+  /* background-color: #8DE87F; */
+  margin-left: 62px;
 
 }
 
@@ -300,6 +307,8 @@ button {
 }
 
 
+
+
 .achieve-text p {
   font-size: 20px;
   font-family: 'Lato', sans-serif;
@@ -311,24 +320,35 @@ button {
 }
 
 .achieve-container {
-  width: 70vw;
-  height: auto;
-  gap: 64px;
-  margin: 40px auto;
-  /* background-color: #94e2b9; */
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: space-between;
+  /* align-items: flex-start; */
+  /* align-content: center; */
+  margin-top: 60px;
+  gap: 64px;
+  flex-wrap: wrap;
+  /* background-color: #8DE87F; */
 }
 
 .achieve-grid {
-  max-width: 33vw;
+  /* max-width: 33vw;
   padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* grid-template-rows: 1fr 1fr; */
-  gap: 24px;
+  /* gap: 24px; */
   /* background-color: aqua; */
+  flex: 1;
+  min-width: 568px;
+  max-width: 48%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  padding: 63px;
+  /* align-items: center; */
+  align-content: center;
+  margin-top: 40px;
+  /* background-color: #7FE4E8; */
 }
 
 .achievements {
@@ -372,6 +392,12 @@ button {
 .achieve-image {
   /* margin: 0; */
   /* align-self: right; */
-  border-radius: 25px;
+  /* border-radius: 25px; */
   /* margin-right: 0; */
+  flex: 1;
+  max-width: 50%;
+  border-radius: 25px;
+  object-fit: cover;
+  height: auto;
+  display: block;
 }
